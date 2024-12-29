@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #006400;
+}
+header {
+    background-color: #006400;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d32f2f;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f0f4f8;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #006400;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.snowflake {
+    color: #fff;
+    font-size: 2em;
+    position: fixed;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+    0% {
+        transform: translateY(-10px);
+        left: 10%;
+    }
+    100% {
+        transform: translateY(100vh);
+        left: 50%;
+    }
+}
